@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jeu de combat tour par tour</title>
+        <meta charset="utf-8" />
+        <link href="body_.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="monScript(1).js" async></script>
+    </head>
+    <body>
+
+
+        <scene>
+            <statHeros>
+                <statHero1>
+                    <h3>
+                        <div id = maDiv4 >Florizarre</div>
+                    </h3>
+                    <div id = maDiv4 > 
+                        <!-- J'ai prefere prendre des URL au lieu de PNG pour illustrer mes heros et mes ennemis car venant de sources officiels des studios Game Freak, je ne savais pas si nous avions le droit-->
+                        <img src="https://img.pokemondb.net/sprites/lets-go-pikachu-eevee/normal/venusaur.png" alt="Venusaur">
+                    </div>
+                    <h6>
+                        P.V. :
+                        <div id = valeurPvHero1>100</div>
+                        /100
+                    </h6>
+                    <mana>
+                        <h6>
+                            P.A. : 
+                            <div id = valeurPaHero1>50</div>
+                            /50
+                        </h6>
+                    </mana>
+                </statHero1>
+                <statHero2>
+                    <h3>
+                        Dracaufeu
+                    </h3>
+                    <div id = maDiv5> <img src="https://img.pokemondb.net/sprites/lets-go-pikachu-eevee/normal/charizard.png" alt="Charizard"></a></div>
+                    <h6>
+                        P.V. :
+                        <div id = valeurPvHero2>100</div>
+                        /100
+                    </h6>
+                    <mana>
+                        <h6>
+                            P.A. : 
+                            <div id = valeurPaHero2>50</div>
+                            /50
+                        </h6>
+                    </mana>
+                </statHero2>
+                <statHero3>
+                    <h3>
+                        Tortank
+                    </h3>
+                    <div id = maDiv6><img src="https://img.pokemondb.net/sprites/lets-go-pikachu-eevee/normal/blastoise.png" alt="Blastoise"></div>
+                    <h6>
+                        P.V. :
+                        <div id = valeurPvHero3>100</div>
+                        /100
+                    </h6>
+                    <mana>
+                        <h6>
+                            P.A. : 
+                            <div id = valeurPaHero3>50</div>
+                            /50
+                        </h6>
+                    </mana>
+                </statHero3>
+                <statHero4>
+                    <h3>
+                        Grivali
+                    </h3>
+                    <div id = maDiv7> <img src="https://img.pokemondb.net/sprites/sword-shield/normal/glaceon.png" alt="Glaceon"></div>
+                    <h6>
+                        P.V. :
+                        <div id = valeurPvHero4>100</div>
+                        /100
+                    </h6>
+                    <mana>
+                        <h6>
+                            P.A. : 
+                            <div id = valeurPaHero4>50</div>
+                            /50
+                        </h6> 
+                    </mana>
+                </statHero4>
+            </statHeros>
+            
+
+
+            <vieMonstres>
+                <vieMonstre1>
+                    <!-- Mes noms de sources "maDiv" ne sont pas dans le bon ordre suite a une premiere tentative de code dans laquelle j'avais cree mes ennemis en premiers. Recommencant a zero avec mes anciennes notes, je n'ai pas change leurs noms.-->
+                    <div id =maDiv > <img src="https://img.pokemondb.net/sprites/sun-moon/normal/solgaleo.png" alt="Solgaleo"></a></div>
+                    <div id =case1>
+                        <h6>
+                            P.V. :
+                            <div id = valeurPvEnnemi1>100</div>
+                            /100
+                        </h6>
+                    </div>
+                </vieMonstre1>
+                <vieMonstre2>
+                    <div id =maDiv2 > <img src="https://img.pokemondb.net/sprites/sun-moon/normal/lunala.png" alt="Lunala"></a></div>
+                    <div id = case2>
+                        <h6>
+                            P.V. :
+                            <div id = valeurPvEnnemi2>100</div>
+                            /100
+                        </h6>
+                    </div>
+                </vieMonstre2>
+                <vieMonstre3>
+                    <div id =maDiv3 ><img src="https://img.pokemondb.net/sprites/sun-moon/normal/necrozma.png" alt="Necrozma"></a></div>
+                    <div id = case3>
+                        <h6>
+                            P.V. :
+                            <div id = valeurPvEnnemi3>100</div>
+                            /100
+                        </h6>
+                    </div>
+                </vieMonstre3>
+            </vieMonstres>
+
+
+ 
+        </scene>
+        <interface>
+            <div id ="choix">
+                <div id = "choixAttaque">
+                    <h3>
+                        ATTAQUE
+                    </h3>
+                </div>
+                <div id = "choixDefense">
+                    <h3>
+                        DEFENSE
+                    </h3>
+                </div>
+                <div id = "choixSpecial">
+                    <h3>
+                        SPECIAL
+                    </h3>
+                </div>
+ 
+
+            <boiteDialogue>
+                <h4>
+                    <div id = "contenuBoiteDialogue">Debut du combat</div>
+                </h4>
+            </boiteDialogue>
+            
+            
+        </interface>
+    </body>
+</html>
